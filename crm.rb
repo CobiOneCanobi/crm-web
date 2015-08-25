@@ -10,11 +10,9 @@ get '/' do
 end
 
 get '/contacts' do
-
-
   erb :contacts
 end
 
 get '/contacts/new' do
-  #add .erb later
+  erb :new_contact
 end
