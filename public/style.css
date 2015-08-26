@@ -1,0 +1,10 @@
+h1{
+  text-align: center;
+  border: 1px solid;
+  background-color: #00FFFF;
+}
+
+#main_menu{
+  font-weight: bold;
+  font-size: 20px;
+}
