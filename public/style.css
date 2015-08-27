@@ -3,9 +3,13 @@ header{
   text-align: center;
   border: 1px solid;
   background-color: #938172;
+
 }
 
-body{
+footer{
+  height: 50px;
+  border: 1px solid;
+  background-color: #020304;
 
 }
 
@@ -13,18 +17,44 @@ h1{
   text-align: center;
   border: 1px solid;
   background-color: #541F14;
+  margin-top: 0px;
+}
+
+ul{
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
 }
 
 #main_menu{
   font-weight: bold;
   font-size: 20px;
-
+  text-align: center;
 }
 
-form{
-  margin:0 auto;
+form p{
+  margin: 0px auto;
   width: 50%;
 }
+
+form label{
+  width: 75px;
+  display: inline-block;
+}
+
+form input{
+  width: 175px;
+  display: inline-block;
+}
+
+.center{
+  text-align: center;
+}
+
+/*form{
+  margin: 0px auto;
+  width: 50%;
+}*/
 
 .column-left{
   float: left;
